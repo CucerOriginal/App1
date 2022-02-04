@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.MainPage">
+
+    <ScrollView>
+        <StackLayout Padding="5,100,5,5">
+        <Label x:Name="label1" Text="Мой приложение" FontSize="20" TextColor="Red" HorizontalOptions="Center" FontAttributes="Bold"/>
+        <Label x:Name="label2" Text="А он не моет!! АХХАХАХАХА" FontSize="20" TextColor="Red" HorizontalOptions="Center" FontAttributes="Bold" IsVisible="false"/>
+        <Button x:Name="button1" Text="Нажми" Clicked="Button1_Clicked"/>
+        <Button x:Name="button2" Text="Нажми, попробуй давай" Clicked="Button2_Clicked"/>
+        <Button x:Name="button3" Text="Тоже можно нажать" Clicked="button3_Clicked"/>
+        <Button x:Name="button4" Text="Тут все можно нажать" Clicked="button4_Clicked"/>
+        <Button x:Name="button5" Text="Какая та необычная кнопка" Clicked="button5_Clicked"/>
+        </StackLayout>
+        </ScrollView>
+
+</ContentPage>
